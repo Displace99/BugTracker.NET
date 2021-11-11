@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v1
       - name: Build Solution
         run: |
-          msbuild.exe src\BugTracker.NET.sln
+          msbuild src\BugTracker.NET.sln
